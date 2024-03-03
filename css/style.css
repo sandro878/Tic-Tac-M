@@ -41,6 +41,7 @@ nav h1:hover {
   justify-content: center;
   margin-top: 10px;
   text-align: center;
+  margin-bottom: 10px;
 }
 .container {
   display: grid;
@@ -127,7 +128,26 @@ nav h1:hover {
   background-color: #911d91;
   transition: width 1s ease-in-out;
 }
+/* footer */
+footer {
+  width: 100%;
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+  font-family: "Madimi One", sans-serif;
+}
+footer .comp {
+  margin-bottom: 15px;
+}
 
+footer .cop {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Responsive */
 @media screen and (min-width: 768px) {
   nav {
     width: 100%;
@@ -137,9 +157,16 @@ nav h1:hover {
   nav h1 {
     margin: 0;
   }
+  .footer {
+    height: 15px;
+    display: flex;
+    margin-top: 9px;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 768px) {
   .gameContainer {
     flex-wrap: wrap;
   }
