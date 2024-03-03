@@ -13,7 +13,7 @@
       display: table-cell;
       margin: 0;
       padding: 0;
-      animation: animate 2s infinite linear;
+      animation: animate 1.5s infinite linear;
     }
     h1 span:nth-child(1) {
       animation-delay: 0s;
@@ -26,18 +26,6 @@
     }
     h1 span:nth-child(4) {
       animation-delay: 0.75s;
-    }
-    h1 span:nth-child(5) {
-      animation-delay: 1s;
-    }
-    h1 span:nth-child(6) {
-      animation-delay: 1.25s;
-    }
-    h1 span:nth-child(7) {
-      animation-delay: 1.5s;
-    }
-    h1 span:nth-child(8) {
-      animation-delay: 1.75s;
     }
 
     @keyframes animate {
@@ -59,18 +47,13 @@
   </style>
 
   <body>
+    <!-- Nav -->
     <nav>
       <h1>
         <span>S</span>
         <span>a</span>
         <span>n</span>
         <span>Y</span>
-        <span>S</span>
-        <span>e</span>
-        <span>r</span>
-        <span>v</span>
-        <span>e</span>
-        <span>r</span>
       </h1>
       <h2 title="Tic Tac Game">Tic Tac Game</h2>
     </nav>
@@ -99,6 +82,9 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div class="footer">all Right</div>
+    </footer>
     <script src="js/script.js"></script>
     <script>
       const containerEl = document.querySelector(".cs");
